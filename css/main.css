@@ -1,0 +1,192 @@
+a {
+    color: wheat;
+    text-decoration:none;
+}
+
+body {
+    background: #343933;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background: url(../images/templatemo_header_bg.jpg) repeat-x;
+    background-size: cover;
+}
+
+.header h2 {
+    color: #d4d2c5;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    background: #aeac9c url(../images/templatemo_background_section_mid_bg.jpg) repeat-x;
+    background-size: cover;
+}
+
+.selection-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+	list-style: none;
+}
+
+.selection-bar ul li {
+    background: url(../images/templatemo_menu_bg.jpg) repeat-x top;
+}
+
+.selection-bar ul li a{
+    color: #d4d2c5;
+    text-decoration: none;
+    border: 4px #323732 solid;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+}
+
+#example-lists {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    background: #343933;
+}
+.nav-list .nav-title{
+    color: #d4d2c5;
+    text-align: center;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+.nav-list ul {
+    display: flex;
+    flex-direction: column;
+    background: #a2a091 url(../images/gallery_box_bottom.jpg) bottom right no-repeat;
+    border-top: 1px dashed #fff;
+	border-bottom : 1px dashed #fff;
+    background: #343933;
+}
+
+.nav-list ul li a {
+    text-align: center;
+}
+
+.image-box {
+    margin-top: 1rem;
+}
+
+#recent-article {
+    background: url(../images/tempatemo_recent_article.jpg) no-repeat;
+	background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#recent-article h3 {
+    color: #fff;
+}
+
+#recent-article p {
+    color: #fff;
+}
+#content {
+    margin: 1rem;
+}
+.content-text {
+    display: flex;
+    flex-direction: column;
+}
+.content-text h1{
+    text-align: center;
+}
+.content-text p a{
+    color: wheat;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-item {
+    display: flex;
+    border-bottom: 1px dashed #898c82;
+	border-top: 1px dashed #898c82;
+    background: #a2a091 url(../images/gallery_box_bottom.jpg) bottom right no-repeat;
+    
+    margin-bottom: 3rem;
+}
+.gallery-item div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.gallery-item-header a{
+    color: wheat;
+}
+
+.element-title {
+    text-align: center;
+}
+
+.announcer {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcer .body {
+    background-color: #323732;
+    padding: 2rem;
+}
+
+.announcer .body h2 a{
+    color: wheat;
+}
+.announcer .body p {
+    color: #d4d2c5;;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.site-compliance-logos {
+    display: flex;
+    flex-direction: column;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.template-bark {
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 100px) and (max-width: 1000px) {
+    #bottom {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #example-lists {
+        display: none;
+    }
+    .footer {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .site-compliance-logos {
+        align-items: center;
+    }
+}
